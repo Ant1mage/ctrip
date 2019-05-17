@@ -1,5 +1,4 @@
 import 'package:ctrip/model/common_model.dart';
-import 'package:ctrip/model/gridnav_model.dart';
 import 'package:flutter/material.dart';
 
 class LocalNavWidget extends StatelessWidget {
@@ -10,7 +9,6 @@ class LocalNavWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Container(
       height: 64,
       decoration: BoxDecoration(

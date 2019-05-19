@@ -11,8 +11,13 @@ class GridNavWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-        children: _gridNavItems(context)
+    return PhysicalModel(
+      color: Colors.transparent,
+      borderRadius: BorderRadius.circular(6),
+      clipBehavior: Clip.antiAlias,
+      child: Column(
+          children: _gridNavItems(context)
+      ),
     );
   }
 
